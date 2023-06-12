@@ -1,16 +1,29 @@
 {
   "dependencies": {
-    "eslint": "^8.41.0",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "tsc": "^2.0.4"
   },
   "name": "react-dev",
   "version": "1.0.0",
   "description": "hello react",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "tsc":"tsc"
   },
   "author": "Rodrigo Morales",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@types/jest": "^29.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.42.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.3"
+  }
 }
